@@ -25,7 +25,7 @@ export default class App extends Component {
     this.onRotateChange = this.onRotateChange.bind(this);
     this.state={
       option:"Option selected:",
-      rouletteState:'Stop'
+      rouletteState:'stop'
     }
   }
   render() {
@@ -39,7 +39,7 @@ export default class App extends Component {
           {`Roulette state: ${rouletteState}`}
         </Text>
         <Roulette 
-                  enableUserRotate 
+                  enableUserRotate={rouletteState=='stop'} 
                   background={wheel}
                   onRotate={this.onRotate}
                   onRotateChange={this.onRotateChange}
