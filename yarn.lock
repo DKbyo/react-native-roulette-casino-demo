@@ -4161,13 +4161,9 @@ react-is@^16.3.1:
   version "16.4.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.0.tgz#cc9fdc855ac34d2e7d9d2eb7059bbc240d35ffcf"
 
-react-native-casino-roulette@../react-native-casino-roulette/react-native-casino-roulette-1.1.0.tgz:
-  version "1.1.0"
-  resolved "../react-native-casino-roulette/react-native-casino-roulette-1.1.0.tgz#f9af7c4484cafa9f63f248167eac4ff63ae0c0cf"
-
-react-native-casino-roulette@../react-native-casino-roulette/react-native-casino-roulette-1.2.0.tgz:
-  version "1.2.0"
-  resolved "../react-native-casino-roulette/react-native-casino-roulette-1.2.0.tgz#294c347e439e16ea147166589d0af25ec2de2ee4"
+react-native-casino-roulette@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-casino-roulette/-/react-native-casino-roulette-1.4.0.tgz#86b431dbb7ab1451dcc4ec87d61d1297771c541e"
 
 react-native@0.55.4:
   version "0.55.4"
