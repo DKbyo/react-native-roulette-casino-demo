@@ -66,6 +66,7 @@ export default class App extends Component {
                   onRotateChange={this.onRotateCustomChange}
                   marker={marker}
                   options={customOptions}
+                  rotateEachElement={(index)=> ((index * 360 /options.length * -1 ) -90)}
                   markerWidth={20} >          
         </Roulette>
       </View>
